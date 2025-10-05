@@ -55,8 +55,6 @@ experiences:
       time: Jan 2025 – Present
       company: IIT Bombay
       details: |
-          - Fine-tuned and distilled Whisper models for low-resource ASR using high-resource     counterparts, pseudolabeling, and subsampling; evaluated against zero-shots while experimenting with encoder freezing and WER thresholds
-          - Improved Whisper's transcription accuracy by integrating n-gram KenLM and StableLM (StabilityAI) to rescore top-k beam outputs, and enhanced the model by incorporating secondary labels as prompts to guide decoding
           - Studied the construction of Verifiable Delay Functions (VDFs) and Time-Lock Puzzles (TLPs), under guidance of Prof. Chetan Kamath
           - Came up with a novel oracle construction to seperate VDFs from TLPs and TLPs from VDFs and proved that it satisfies the required properties
 
