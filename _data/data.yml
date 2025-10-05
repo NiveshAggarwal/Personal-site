@@ -1,0 +1,188 @@
+sidebar:
+  position: right
+  about: False
+  education: True
+
+  name: Dhvanil Gheewala
+  tagline: Interested in Theoretical CS
+  avatar: profile.png
+
+  email: dhvanil.iitb@gmail.com
+  timezone: India Timezone
+  citizenship: India
+  linkedin: dhvanil-g-97727a1aa
+  github: Dhvanil-CSE
+
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Professional
+      - idiom: Hindi
+        level: Native
+
+  interests:
+    title: Interests
+    info:
+      - item: Badminton
+      - item: Cycling
+      - item: Exploring
+
+career-profile:
+  title: About
+  summary: |
+    Hello, I am Dhvanil, a UG 4th year at IIT Bombay in the CSE department. I am highly interested in research in Formal Verification, Game Theory and Programming Languages and enjoy reading research papers in these fields. I am currently working with [Prof. Supratik Chakraborty](https://www.cse.iitb.ac.in/~supratik/) and [Prof S. Akshay](https://www.cse.iitb.ac.in/~akshayss/) on Skolem Synthesis and [Prof. Swaprava Nath](https://www.cse.iitb.ac.in/~swaprava/) on Intermediary Network Auctions.
+
+    You can [download my resume/CV here](https://github.com/Dhvanil-CSE/personal-site/raw/master/resume.pdf).
+
+    I am always eager to learn and expand my knowledge in the fields of Computer Science, and learn new perspectives by collaborating with others. I want to get better at presenting my work and ideas. I am a huge hodophile! and large fan of mystery/thriller and rich character driven stories whether it’s in a book, a movie, or a game. A windy day with good music? That’s my bliss. I believe the work done today by us will shape the future.
+
+    For Those Who Come After!
+
+education:
+  title: Education
+  info:
+    - degree: Pursuing BTech in Computer Science and Engineering
+      university: IIT Bombay
+      time: 2022 - Present
+      details: |
+        I am pursuing BTech with honors in Computer Science and Engineering. I have completed courses like Linear Algebra, Discrete Structures, Data Structures and Algorithms,
+        Digital Logic Design, Computer Architecture, Cryptography, AI/ML, Operating Systems, Automata Theory, and Formal Methods.
+
+experiences:
+  title: Experiences
+  info:
+    - role: Product Engineer Intern – Optimising Whisper for Low Resource Languages 
+      time: Summer 2025
+      company: Sprinklr, Gurugram
+      details: |
+          - Fine-tuned and distilled Whisper models for low-resource ASR using high-resource     counterparts, pseudolabeling, and subsampling; evaluated against zero-shots while experimenting with encoder freezing and WER thresholds
+          - Improved Whisper's transcription accuracy by integrating n-gram KenLM and StableLM (StabilityAI) to rescore top-k beam outputs, and enhanced the model by incorporating secondary labels as prompts to guide decoding
+
+    - role: QBF Proof Systems and Skolem Synthesis
+      time: Jan 2025 – May 2025
+      company: IIT Bombay
+      details: |
+        - Studied foundational QBF proof systems: Q-Resolution, LD-Q-Res, ∀Exp-Res, AReQS, QRAT and their soundness properties
+        - Investigated DAG-based Skolem function extraction and explored methods to extract functions from LD-Q-Res proofs without converting to Q-Res
+
+    - role: Revenue Maximising in Intermediary Network Auctions
+      time: Jan 2025 – May 2025
+      company: IIT Bombay
+      details: |
+        - Modeled the problem using graphs and Bayesian settings, specifying type distributions and valuation functions
+        - Designed mechanisms for line and star graphs using Myerson’s optimal auction theory
+        - Proved hardness of general auction design in tree networks by reducing from UDMO
+    - role: Lead Developer in Automata Tutor v3
+      time: Summer 2024
+      company: Masaryk University
+      details: |
+        Pursued this role under the esteemed guidance of Prof. Jan Křetínský and contributed to the development of Automata Tutor as follows:
+          - Dockerised the backend and frontend of both the current and upcoming versions of Automata Tutor for seamless deployment across different operating systems and environments
+          - Implemented an automated system for generating various problem types to assist instructors in assignment creation and enable independent practice for students
+          - Developed a system to compute grammar derivations and verify the correctness of user-provided answers
+          - Created a feedback mechanism using backend functions and stored relevant user data in a structured database to enhance learning analytics and future assistance
+
+    - role: Workflow Optimization for BharatGen
+      time: Sept 2024
+      company: IIT Bombay
+      details: |
+        - Built a script using YouTube Data API v3 to extract copyright-free videos based on metadata
+        - Developed a workflow automation pipeline using Google Sheets, Drive, and Gmail for efficient annotation management
+        - Designed a Gradio + Ngrok interface to collect diverse audio samples from the public
+
+pors:
+  title: Positions of Responsibility
+  info:
+    - role: Events Coordinator
+      time: Dec 2023
+      company: Techfest, IIT Bombay
+      details: |
+            - Managed 200+ College Ambassadors across multiple zones for Techfest execution and outreach programs
+            - Established international partnerships by inviting global professors to showcase research projects in exhibitions
+            - Organized large-scale social impact events including Cyclothon and stem cell donation drives with NGO collaboration
+
+    - role: Mentor – Brain Tumor Detection
+      time: Winter 2023
+      company: Analytics Club, IIT Bombay
+      details: |
+            - Mentored students in CNN architectures and PyTorch implementation, achieving 89% accuracy in brain tumor detection models
+            - Designed curriculum covering neural network fundamentals and NumPy implementations to reduce framework dependency
+
+    - role: Volunteer Tutor for Underprivileged Students
+      time: 2022 – 2023
+      company: National Service Scheme
+      details: |
+            - Led year-long educational initiative tutoring underprivileged Class 12 students in JEE preparation
+            - Delivered structured lessons in Physics and Mathematics to improve academic understanding
+
+projects:
+  title: Projects
+  intro: >
+    I have undertaken and completed the following projects, each reflecting my skills and dedication to my work.
+  assignments:
+    - title: Robust Non-Probabilistic Shield for Environmental Uncertainty
+      tagline: Developed a safety-aware reinforcement learning shield to maintain safe actions under uncertainty using theoretical guarantees and real-time perception loss simulation.
+
+    - title: Simulation of a P2P Cryptocurrency Network
+      tagline: Built a discrete-event blockchain simulator with PoW consensus, selfish mining, eclipse attack mitigation, and block validation using tree-based recovery.
+
+    - title: Compiler for Simple C-like Language
+      tagline: Designed a full compiler for a C-like language using lex/yacc, generating ASTs, TAC, RTL, and MIPS assembly with recursion and control flow support.
+
+    - title: MangoDB – An Advanced IMDB Clone
+      tagline: Created an IMDB clone with PSQL, React, and REST APIs featuring search, review, recommendations, email verification, DoS protection, and social features.
+
+    - title: A 4-Piece Chess Relocation
+      tagline: Engineered an optimization framework using Stockfish to find optimal pre-game relocations of 4 chess pieces for maximal strategic advantage.
+
+    - title: xv6 Operating System
+      tagline: Enhanced xv6 by implementing file operations, multithreading, copy-on-write paging, and a user shell with round-robin scheduling.
+
+    - title: Sound-based Data Link Layer
+      tagline: Developed an audio link-layer protocol with multi-tone RZ encoding, CRC-k error correction, Welch denoising, and CSMA/CA-based collision handling.
+
+    - title: Homomorphic Encryption for k-NN on the Cloud
+      tagline: Built a privacy-preserving k-NN system using homomorphic encryption, Docker-based architecture, and secure socket communication over cloud servers.
+
+    - title: Into the RLverse
+      tagline: Implemented TS, UCB, MC, TD, and DQN algorithms to solve MABs and RL tasks across OpenAI Gym and custom environments like Snake and Tic-Tac-Toe.
+
+    - title: Smart Contracts & DeFi Simulation
+      tagline: Designed a Decentralized Exchange (DEX) using Solidity with AMM logic, liquidity provisioning, arbitrage modeling, and Hardhat-based testing.
+
+    - title: Algorithmic Trader
+      tagline: Developed a C++ trading simulator implementing arbitrage and median filters with custom data structures and profit evaluation across traders.
+
+    - title: Routing Protocol Implementation
+      tagline: Implemented a distance-vector routing protocol with split horizon and custom functions for segment transmission, forwarding, and periodic updates.
+
+    - title: Neural Networks and LLMs
+      tagline: Fine-tuned MT5 for language ID, built Skip-gram embeddings, and developed an LSTM-based sentiment analysis system with 86% accuracy.
+
+    - title: Data Compression and Text Processing
+      tagline: Implemented RLE, Huffman, KMP, Trie, and Red-Black Tree algorithms in C++ for text compression, decompression, and pattern matching.
+
+    - title: Customised Web Crawler
+      tagline: Built a web crawler using BeautifulSoup and Matplotlib with support for recursion depth control and file type visualizations via bar charts.
+    
+    - title: Disintegration Game
+      tagline: Designed and analyzed a 2-player combinatorial game on a 3D graph using canonical forms, temperatures, and atomic weights to study strategic move optimization.
+
+    - title: Shor’s Algorithm
+      tagline: Reviewed Peter Shor’s quantum factoring algorithm, exploring its exponential speedup over classical methods and implications for modern cryptography.
+
+    - title: Zero Knowledge Proofs
+      tagline: Studied Justin Thaler’s text on Zero-Knowledge Proofs and compiled a detailed report covering ZKP fundamentals and argument systems.
+
+    - title: Topology
+      tagline: Explored foundational topology concepts through “Topology Without Tears,” culminating in a report on topological spaces and continuity.
+
+    - title: Wordle Solver
+      tagline: Developed a Python-based solver that reliably guesses the correct Wordle word within six attempts.
+
+    - title: Basic ML Models
+      tagline: Solved ML tasks using scikit-learn and PyTorch, including regression and classification models on datasets from Kaggle.
+
+
+footer: >

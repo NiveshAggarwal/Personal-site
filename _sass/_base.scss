@@ -1,0 +1,259 @@
+.sidebar-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 100vh;
+  overflow-y: auto;
+  z-index: 1000;
+  background: $theme-color;
+  color: #fff;
+
+  a {
+    color: #fff;
+  }
+
+  .profile-container {
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+  }
+
+  .name {
+    font-size: 32px;
+    font-weight: 900;
+    margin: 0 0 10px 0;
+  }
+
+  .tagline {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .avatar {
+    max-width: 100px;
+    margin-bottom: 15px;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact-list {
+    .fas, .fab, .far {
+      margin-right: 5px;
+      font-size: 18px;
+      vertical-align: middle;
+    }
+
+    li {
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .container-block {
+    padding: 20px;
+  }
+
+  .container-block-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+  }
+
+  .degree {
+    font-size: 16px;
+    margin: 0 0 5px 0;
+  }
+
+  .education-container, .languages-container, .interests-container {
+    .item {
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .meta, .time, .lang-desc {
+      color: rgba(255, 255, 255, 0.6);
+      font-weight: 500;
+    }
+  }
+
+  .languages-list, .interests-list {
+    margin-bottom: 0;
+    li {
+      margin-bottom: 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.main-wrapper {
+  margin-left: 350px;
+  padding: 60px;
+  background: #fff;
+  font-size: 18px;
+  max-width: calc(100% - 350px);
+
+  .section-title {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 500;
+    color: darken($theme-color, 15%);
+    margin: 0 0 10px 0;
+  }
+
+  .section {
+    margin-bottom: 30px;
+  }
+
+  // .experiences-section,
+  .experiences-section {
+    .item {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      
+      // Add this to limit bullet point width
+      ul, ol {
+        max-width: 92%; // Adjust this percentage as needed
+        li {
+          margin-bottom: 8px;
+          line-height: 1.4;
+        }
+      }
+    }
+    
+    .job-title {
+      margin-top: 0;
+    }
+  }
+  .educations-section,
+  .positions-section {
+    .item {
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+
+    .job-title {
+      margin-top: 0;
+    }
+  }
+
+  .upper-row,
+  .second-upper-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0px;
+  }
+
+  .job-title,
+  .degree,
+  .cert-title {
+    color: $text-color;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .time,
+  .cert-url {
+    color: $text-grey;
+    font-size: 16px;
+    text-align: right;
+  }
+
+  .company,
+  .university,
+  .cert-org {
+    margin-bottom: 0px;
+    color: $text-grey;
+  }
+
+  .project-title,
+  .publication-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 5px 0;
+    color: darken($theme-color, 15%);
+  }
+
+  .publication-authors {
+    font-style: italic;
+    color: $text-grey;
+    margin-bottom: 1px;
+  }
+
+  .projects-section,
+  .publications-section {
+    .intro {
+      margin-bottom: 0px;
+    }
+
+    .item {
+      margin-bottom: 10px;
+    }
+  }
+
+  .footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: $text-color-secondary;
+  }
+}
+
+/* ========== Responsive Styles ========== */
+@media (max-width: 768px) {
+  .sidebar-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-wrapper {
+    margin-left: 0;
+    max-width: 100%;
+    padding: 20px;
+    font-size: 16px;
+
+    .section-title {
+      font-size: 22px;
+    }
+
+    .job-title,
+    .degree,
+    .cert-title {
+      font-size: 20px;
+    }
+
+    .time,
+    .cert-url {
+      font-size: 14px;
+    }
+
+    .project-title,
+    .publication-title {
+      font-size: 18px;
+    }
+  }
+
+  .upper-row,
+  .second-upper-row {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .time,
+    .cert-url {
+      text-align: left;
+      margin-top: 5px;
+    }
+  }
+}
