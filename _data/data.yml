@@ -51,28 +51,24 @@ education:
 experiences:
   title: Experiences
   info:
-    - role: Separating Verifiable Delay Functions and Time-Lock Puzzles
+    - role: Timed Cryptography
       time: Jan 2025 – Present
       company: IIT Bombay
       details: |
-          - Studied the construction of Verifiable Delay Functions (VDFs) and Time-Lock Puzzles (TLPs), under guidance of Prof. Chetan Kamath
-          - Came up with a novel oracle construction to seperate VDFs from TLPs and TLPs from VDFs and proved that it satisfies the required properties
+          - worked under Prof. Chetan Kamath on understanding Timed Cryptographic Primitives like Time Lock Puzzles and Verifiable Delay Functions
 
     - role: Revenue Maximising in Intermediary Network Auctions
       time: Jan 2025 – Present
       company: IIT Bombay
       details: |
-        - Modeled the problem using graphs and Bayesian settings, specifying type distributions and valuation functions
-        - Designed mechanisms for line and star graphs using Myerson’s optimal auction theory
+        - Modeled the problem using graphs and Bayesian settings, specifying type distributions and valuation functions and designed a mechanism for simple graphs
         - Proved hardness of general auction design in tree networks by reducing from UDMO
 
     - role: Quantitative Trader
       time: Summer 2025
       company: Graviton Research Capital
       details: |
-        - Worked on improving non linear model training pipeline by normalizing the input features given and optimising loss functions achieving an improvement of 2 percent
-        - Explored and identified additional areas with potential for improvement, conducting brief proof-of-concept
-        experiments that yielded improvements of 1-2 percent and documented the findings for future reference
+        - Worked on improving non linear model training pipeline by normalizing the input features given, optimising loss functions and other paramters achieving an improvement of 2-4 percent
         - Worked on a simulator for testing models, allowing us to compare them faster and provide more flexibility
 
 pors:
