@@ -32,7 +32,7 @@ career-profile:
   title: About
   summary: |
   
-    Hello, I am Nivesh, a UG 4th year at IIT Bombay in the CSE department. I am highly interested in reasearch in CryptoGraphy and Game Theory and enjoy learning new things in these fields. I am currently working with [Prof. Chetan Kamath](https://www.cse.iitb.ac.in/~ckamath/) on Timed Cryptographic Primitives and [Prof. Swaprava Nath](https://www.cse.iitb.ac.in/~swaprava/) on Intermediary Network Auctions.
+    Hello, I am Nivesh, a UG 4th year at IIT Bombay in the CSE department. I am highly interested in reasearch in Cryptography and Game Theory and enjoy learning new things in these fields. I am currently working with [Prof. Chetan Kamath](https://www.cse.iitb.ac.in/~ckamath/) on Timed Cryptographic Primitives and [Prof. Swaprava Nath](https://www.cse.iitb.ac.in/~swaprava/) on Intermediary Network Auctions.
 
     You can [download my resume/CV here](Resume-Nivesh_Aggarwal.pdf).
 
@@ -74,7 +74,7 @@ experiences:
 pors:
   title: Positions of Responsibility
   info:
-    - role: Teaching Assitant - Theoretical Foundations of Cryptography
+    - role: Teaching Assistant - Theoretical Foundations of Cryptography
       time: Autumn 2024
       company: IIT Bombay
       details: |
